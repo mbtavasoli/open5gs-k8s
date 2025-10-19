@@ -391,7 +391,7 @@ def generate_slice_data(slice_number, qos_index=DEFAULT_CONFIG["DEFAULT_QOS_INDE
     return {
         slice_name: {
             "sst": slice_number,
-            "sd": sd,
+            # "sd": sd,
             "default_indicator": True,
             "session": [
                 {
